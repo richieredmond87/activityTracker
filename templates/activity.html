@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity Tracker</title>
+</head>
+<body>
+    {% for activity in activity %}
+        {{ activity.category_name }}<br>
+        {{ activity.activity_name }}<br>
+        {{ activity.activity_description }}<br>
+        {{ activity.is_completed }}<br>
+        {{ activity.due_date }}<br>
+    {% endfor %}
+</body>
+</html>
