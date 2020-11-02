@@ -1,8 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
 
-    <h2>  I'm extending the base template! </h2>
-    
     {% for activity in activity %}
         {{ activity.category_name }}<br>
         {{ activity.activity_name }}<br>
