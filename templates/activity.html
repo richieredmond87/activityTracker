@@ -1,12 +1,23 @@
 {% extends "base.html" %}
 {% block content %}
 
-    {% for activity in activity %}
-        {{ activity.category_name }}<br>
-        {{ activity.activity_name }}<br>
-        {{ activity.activity_description }}<br>
-        {{ activity.is_completed }}<br>
-        {{ activity.due_date }}<br>
-    {% endfor %}
+    <ul class="collapsible">
+        {% for activity in activity %}
+        <li>
+            <div class="collapsible-header white-text light-blue darken-4 text-shadow">
+                <i class="fas fa-caret-down"></i>
+                <strong>{{ activity.activity_name }}</strong> : {{ activity.due_date }}
+                {% if activity.is_completed == "true" %}
+                    <i class="fas fa-check-square light-blue-text text-lighten-2 tooltipped"
+                        data-position="right" data-tooltip="Completed"></i>
+                {% endif %}
+            </div>
+            <div class="collapsible-body">
+                <strong>{{ activity.category_name }}</strong>
+                <p>{{ activity.activity_description }}</p>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
 
 {% endblock %}
