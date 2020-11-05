@@ -99,8 +99,22 @@ def logout():
     return redirect(url_for("login"))
 
 
-@app.route("/add_activity")
+@app.route("/add_activity", methods=["GET", "POST"])
 def add_activity():
+    if request.method == "POST":
+        is_completed = "true" if request.form.get("is_completed") else "false"
+        activity = {
+            "category_name": request.form.get("category_name"),
+            "activity_name": request.form.get("activity_name"),
+            "activityk_description": request.form.get("activity_description"),
+            "is_completed": is_completed,
+            "due_date": request.form.get("due_date"),
+            "created_by": session["user"]
+        }
+        mongo.db.activity.insert_one(activity)
+        flash("Activity Successfully Added")
+        return redirect(url_for("get_activity"))
+
     categories = mongo.db.categories.find().sort("category_name", 1)
     return render_template("add_activity.html", categories=categories)
 
