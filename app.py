@@ -21,7 +21,14 @@ mongo = PyMongo(app)
 @app.route("/")
 @app.route("/get_activity")
 def get_activity():
-    activity = mongo.db.activity.find()
+    activity = list(mongo.db.activity.find())
+    return render_template("activity.html", activity=activity)
+
+
+@app.route("/search", methods=["GET", "POST"])
+def search():
+    query = request.form.get("query")
+    activity = list(mongo.db.activity.find({"$text": {"$search": query}}))
     return render_template("activity.html", activity=activity)
 
 
@@ -133,7 +140,7 @@ def edit_activity(activity_id):
         }
         mongo.db.activity.update({"_id": ObjectId(activity_id)}, submit)
         flash("Activity Successfully Updated")
-        
+
     activity = mongo.db.activity.find_one({"_id": ObjectId(activity_id)})
     categories = mongo.db.categories.find().sort("category_name", 1)
     return render_template("edit_activity.html", activity=activity, categories=categories)
