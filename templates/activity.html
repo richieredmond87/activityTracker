@@ -1,18 +1,18 @@
 {% extends "base.html" %}
 {% block content %}
 
-    <h3 class="light-blue-text text-darken-4 center-align">All Activities</h3>
+    <h3 class="light-green accent-4   white-text center-align">All Activities</h3>
 
     <div class="row card-panel grey lighten-5">
         <form action="{{ url_for('search') }}" method="post" class="col s12">
             <div class="row valign-wrapper center-align">
                 <div class="input-field col s12 m8">
-                    <i class="fas fa-search prefix light-blue-text text-darken-4"></i>
+                    <i class="fas fa-search prefix white-text text-darken-4"></i>
                     <input type="text" name="query" id="query" minlength="3" class="validate" required>
                     <label for="query">Search Activity</label>
                 </div>
                 <div class="col s12 m4">
-                    <a href="{{ url_for('get_activity') }}" class="red btn text-shadow">Reset</a>
+                    <a href="{{ url_for('get_activity') }}" class="orange darken-1 btn text-shadow">Reset</a>
                     <button type="submit" class="light-blue darken-1 btn text-shadow">
                         <i class="fas fa-search left"></i> Search
                     </button>
@@ -25,18 +25,18 @@
     <ul class="collapsible">
         {% for activity in activity %}
         <li>
-            <div class="collapsible-header white-text light-blue darken-4 text-shadow">
+            <div class="collapsible-header white-text light-green accent-4 ">
                 <div class="col s3">
                     <i class="fas fa-caret-down"></i>
                     {% if session.user|lower == activity.created_by|lower %} 
-                        <a href="{{ url_for('delete_activity', activity_id=activity._id) }}" class="btn-small green accent-4">Done</a>
-                        <a href="{{ url_for('edit_activity', activity_id=activity._id) }}" class="btn-small light-blue lighten-1">Edit</a>
+                        <a href="{{ url_for('delete_activity', activity_id=activity._id) }}" class="btn-small light-blue darken-1">Done</a>
+                        <a href="{{ url_for('edit_activity', activity_id=activity._id) }}" class="btn-small orange darken-1 ">Edit</a>
                     {% endif %}
                 </div>
                 <div class="col s9">
                 <strong>{{ activity.activity_name }}</strong> : {{ activity.due_date }}
                 {% if activity.is_completed == "true" %}
-                    <i class="fas fa-check-square light-blue-text text-lighten-2 tooltipped"
+                    <i class="fas fa-check-square light-blue-text darken-1 tooltipped"
                         data-position="right" data-tooltip="Completed"></i>
                 {% endif %}
                 </div>
