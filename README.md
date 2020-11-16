@@ -45,14 +45,16 @@ The primary goal of this application is for users to keep track of exercises the
 ![Game Over](https://user-images.githubusercontent.com/55495783/90340103-a2cfec00-dfed-11ea-9272-a3ab57a59b69.png)
 ## Features
 ### Exisiting Features
-* Click to play welcome screen, A nice and simple welcome to the game and click anywhere to start the game
-* Timer Counts down from 100 seconds to let you know your remaining time before GAME over
-* Flips keeps tracks of how many cards you have flipped
-* Hover over card back and the question mark grows to let you know what card you are about to click
-* Cards flip over to reveal eight pairs of matching animal cards the do an animation when matched and turn back over when they are not matched
-* Game OVER or You WON! revealed at the end depending on whether you win the game or not and an option to restart the game
+* Log in to account or register account
+* Once logged in it will bring you to your Profile page
+* Home shows you all activies entered by all users and lets you edit or delete your own activities.
+* There is also a search option to help you find your activity easier
+* New activity lets you input a new activity which is stored in a MongoDB database and you are  able to view this at the Home page
+* If admin user you can Create, Edit or delete categories the users can use
+
 ### Features left to Implement
 * I would like to add aconfirm delete notification when deleting a category or activity
+* Add users own activities to profile page
 * Resize the Activity tracker heading on mobile view screen size
 
 ## Technologies
