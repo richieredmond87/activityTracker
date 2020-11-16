@@ -30,7 +30,7 @@ https://github.com/richieredmond87/activityTracker
 
 ## UX
 ### Project Goals
-The primary goal of this application is for users to keep track of exercises the have completed and plan out exercises they want to do.
+The primary goal of this application is for users to keep track of exercises they have completed and plan to do.
 ### Player Goals
 * Keep track of exercises.
 * Plan out exercises.
@@ -53,22 +53,28 @@ The primary goal of this application is for users to keep track of exercises the
 * If admin user you can Create, Edit or delete categories the users can use
 
 ### Features left to Implement
-* I would like to add aconfirm delete notification when deleting a category or activity
+* I would like to add a confirm delete notification when deleting a category or activity
 * Add users own activities to profile page
 * Resize the Activity tracker heading on mobile view screen size
 
 ## Technologies
-* I used HTML, CSS and JavaScript in this project
+* I used  the following technologies:
+1. HTML
+1. CSS
+1. JavaScript 
+1. Bootstrap
+1. MongoDB 
+1. Heroku
+1. jQuery
+1. Flask 
 
 
 ## Testing
-* At the start I had some bugs like for example the images not showwing on the deployed version but showing on Gitpod, I later found out that was down to having the absolute path put in once I removed the "../" it worked fine.
 * I tested the colour scheme here: https://coolors.co/
 * I tested the JavaScript here: https://jshint.com/
-* Below is the results of the HTML test
-![htmlChecker](https://user-images.githubusercontent.com/55495783/90340104-a2cfec00-dfed-11ea-9271-7ba67bba5d08.PNG)
-* Below is the results of the CSS test
-![cssValidator](https://user-images.githubusercontent.com/55495783/90340084-8cc22b80-dfed-11ea-8e52-276fa4aedf8d.PNG)
+* I tested the CSS here: https://jigsaw.w3.org/css-validator/
+* I tested the HTML here: https://validator.w3.org/
+* I tested the Python here: http://pep8online.com/checkresult
 
 
 ## Deployment
@@ -85,14 +91,18 @@ To Deploy this project:
 https://richieredmond87.github.io/Childrens-activityTracker/
 
 ## Credits
-* I used 
+* I used the following aids:
+1. https://materializecss.com/
+1. https://fontawesome.com/icons?d=gallery
+1. https://randomkeygen.com/
+1. https://cdnjs.com/
 ### Media
-* The 
+ 
 ### Code 
 
-
 ### Acknowledgements
-* I started of watching and coding along side some Simon memory game, video's below: 
-    https://www.youtube.com/watch?v=n_ec3eowFLQ&t=597s
-    https://www.youtube.com/watch?v=W0MxUHlZo6U
-
+* I done the old "Go Humongous With MongoDB Atlas" mini project and didnt really understand alot of it as things didnt work and I was constanly on tutor support 
+getting help, So I decided to do the mile-stone project by watching the new videos and lessons to get a better understanding 
+* I started here:
+ https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+DCP101+2017_T3/courseware/196c000dd670458cafc7b2dc9d4a8245/016a25dab553425ba26288263c0c3a6e/?activate_block_id=block-v1%3ACodeInstitute%2BDCP101%2B2017_T3%2Btype%40sequential%2Bblock%40016a25dab553425ba26288263c0c3a6e
+* And followed the rest of the course but changing it to make it my own and look the way I wanted it to
