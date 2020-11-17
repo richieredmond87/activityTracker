@@ -6,6 +6,8 @@ In the project I wanted to create an application for you to keep track of your e
 
 Veiw the application on Github here:
 https://github.com/richieredmond87/activityTracker
+Veiw the application on Heroku here:
+https://activity-tracker-ci.herokuapp.com/
 ## Table of Contents
 1. UX
     * Project Goals
@@ -38,7 +40,7 @@ The primary goal of this application is for users to keep track of exercises the
 * .
 ### Wireframes
 * Below is the Images from my start when I designed this with a wireframes:
-![Start](https://user-images.githubusercontent.com/55495783/90340107-a3688280-dfed-11ea-88cb-a1cc94cbd73f.png)
+![Log In](https://github.com/richieredmond87/activityTracker/blob/f96c40c1e1598db433fc691ca047ecb4f7d3fca3/static/img/Log%20In.png)
 ![Playing](https://user-images.githubusercontent.com/55495783/90340106-a3688280-dfed-11ea-9fa0-c399e7292384.png)
 ![Completed](https://user-images.githubusercontent.com/55495783/90340101-a19ebf00-dfed-11ea-984e-c17a4ba6a96e.png)
 ![Win](https://user-images.githubusercontent.com/55495783/90340108-a3688280-dfed-11ea-83e7-0471baccf67e.png)
