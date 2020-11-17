@@ -2,7 +2,9 @@
 
 # Activity Tracker
 
-In the project I wanted to create an application for you to keep track of your exercises, you can create, read, edit and delete activities.
+In the project I wanted to create an application for users to keep track of their exercises, They can create, read, edit and delete there own activities.
+I wanted to keep it nice and pleasant with not too much clutter. Just their exercise goals and completed activities.
+
 
 * Veiw the application on Github here:
 https://github.com/richieredmond87/activityTracker
@@ -107,4 +109,4 @@ https://richieredmond87.github.io/Childrens-activityTracker/
 getting help, So I decided to do the mile-stone project by watching the new videos and lessons to get a better understanding 
 * I started here:
  https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+DCP101+2017_T3/courseware/196c000dd670458cafc7b2dc9d4a8245/016a25dab553425ba26288263c0c3a6e/?activate_block_id=block-v1%3ACodeInstitute%2BDCP101%2B2017_T3%2Btype%40sequential%2Bblock%40016a25dab553425ba26288263c0c3a6e
-* And followed the rest of the course but changing it to make it my own and look the way I wanted it to
+* And followed the rest of the course videos but changing them to make it my own and look the way I wanted it to
