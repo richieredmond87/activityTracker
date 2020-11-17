@@ -4,9 +4,9 @@
 
 In the project I wanted to create an application for you to keep track of your exercises, you can create, read, edit and delete activities.
 
-Veiw the application on Github here:
+* Veiw the application on Github here:
 https://github.com/richieredmond87/activityTracker
-Veiw the application on Heroku here:
+* Veiw the application on Heroku here:
 https://activity-tracker-ci.herokuapp.com/
 ## Table of Contents
 1. UX
@@ -37,14 +37,14 @@ The primary goal of this application is for users to keep track of exercises the
 * Keep track of exercises.
 * Plan out exercises.
 * delete unwanted Activities.
-* .
 ### Wireframes
 * Below is the Images from my start when I designed this with a wireframes:
-![Log In](https://github.com/richieredmond87/activityTracker/blob/f96c40c1e1598db433fc691ca047ecb4f7d3fca3/static/img/Log%20In.png)
-![Playing](https://user-images.githubusercontent.com/55495783/90340106-a3688280-dfed-11ea-9fa0-c399e7292384.png)
-![Completed](https://user-images.githubusercontent.com/55495783/90340101-a19ebf00-dfed-11ea-984e-c17a4ba6a96e.png)
-![Win](https://user-images.githubusercontent.com/55495783/90340108-a3688280-dfed-11ea-83e7-0471baccf67e.png)
-![Game Over](https://user-images.githubusercontent.com/55495783/90340103-a2cfec00-dfed-11ea-9272-a3ab57a59b69.png)
+![Log In](https://user-images.githubusercontent.com/55495783/99369773-c177a480-28b4-11eb-9f57-42f5354c75b1.png)
+![Profile](https://user-images.githubusercontent.com/55495783/99369887-e409bd80-28b4-11eb-8625-5123489e7004.png)
+![Home](https://user-images.githubusercontent.com/55495783/99369924-ef5ce900-28b4-11eb-82a5-134266ed4627.png)
+![Add Activity](https://user-images.githubusercontent.com/55495783/99369947-f8e65100-28b4-11eb-875e-89d13b8ef245.png)
+![Manage Categories](https://user-images.githubusercontent.com/55495783/99369975-026fb900-28b5-11eb-8e11-6cff73bfb39d.png)
+
 ## Features
 ### Exisiting Features
 * Log in to account or register account
@@ -81,13 +81,13 @@ The primary goal of this application is for users to keep track of exercises the
 
 ## Deployment
 To Deploy this project:
-1.Log into GitHub.
-1.From the list of repositories on the screen, select richieredmond87/activityTracker.
-1.From the menu items near the top of the page, select Settings.
-1.Scroll down to the GitHub Pages section.
-1.Under Source click the drop-down menu labelled None and select Master Branch
-1.On selecting Master Branch the page is automatically refreshed, Childrens-Memory-game! is now deployed.
-1.Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+1. Log into GitHub.
+1. From the list of repositories on the screen, select richieredmond87/activityTracker.
+1. From the menu items near the top of the page, select Settings.
+1. Scroll down to the GitHub Pages section.
+1. Under Source click the drop-down menu labelled None and select Master Branch
+1. On selecting Master Branch the page is automatically refreshed, Childrens-Memory-game! is now deployed.
+1. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
 
 * Below is the deployed version:
 https://richieredmond87.github.io/Childrens-activityTracker/
